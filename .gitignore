@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases
+*.db
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Sensitive information
+.env
+*.env
+config.ini
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Frontend build artifacts
+frontend/build/
+frontend/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
