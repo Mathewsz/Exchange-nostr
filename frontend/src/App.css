@@ -103,3 +103,40 @@ footer {
   margin-top: 20px;
   color: #777;
 }
+
+.notifications-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.notification {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.notification:hover {
+  opacity: 0.8;
+}
+
+.notification-success {
+  background-color: #2ecc71;
+}
+
+.notification-error {
+  background-color: #e74c3c;
+}
+
+.notification-warning {
+  background-color: #f39c12;
+}
+
+.notification-info {
+  background-color: #3498db;
+}
